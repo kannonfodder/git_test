@@ -12,9 +12,9 @@ const Counter: NextPage = () => {
                 <title> The Counter Page!</title>
             </Head>
             <Container maxWidth="lg" style={{marginTop:'400px'}}>
-            <Paper style={{padding:'5px', display:'flex', flexDirection:'column', alignItems:'center'}}>
+            <Paper style={{padding:'5px', display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center'}}>
             
-            
+            <Typography variant="h1">Super Counter</Typography>
             
             <Typography style={{padding:'5px'}}>You clicked the button {counter} times</Typography>
             <Button onClick={() => setCounter(counter + 1)} variant="contained" fullWidth={false}> Click Me!</Button>
